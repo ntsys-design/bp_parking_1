@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>부평구 통합주차시스템</title>
+    <link rel="stylesheet" href="../common/css/default.css">
+    <link rel="stylesheet" href="../common/css/slick.css" />
+    <link rel="stylesheet" href="../common/css/swiper-bundle.min.css">
+    <script src="../common/js/jquery-3.6.0.min.js"></script>
+    <script src="../common/js/common.js"></script>
+    <script src="../common/js/slick.js"></script>
+    <script src="../common/js/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- skip navi -->
+        <div class="skip_navi">
+            <strong class="hide">바로가기 메뉴</strong>
+            <a href="#contents">본문 바로가기</a>
+            <a href="#gnb">주메뉴 바로가기</a>
+        </div>
+        <!-- / skip navi -->
+        <!-- header -->
+        <header>
+            <div class="header_upper">
+                <div class="container">
+                    <ul class="ul_l">
+                        <li>
+                            <a href="">
+                                부평구도시관리공단
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                온라인예약
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="">
+                                통합주차
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                보안등 고장신고
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ul_r">
+                        <!-- 로그인하면 숨김 -->
+                        <li>
+                            <a href="">
+                                로그인
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                회원가입
+                            </a>
+                        </li>
+                        <!-- / 로그인하면 숨김 -->
+                        <li>
+                            <a href="">
+                                사이트맵
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_main">
+                <div class="container">
+                    <div class="logowrap">
+                        <a href="index.html"><span class="hide">부평구시설관리공단통합주차</span></a>
+                    </div>
+                    <div class="m_btn"></div>
+                </div>
+            </div>
+            <nav class="m_menu clear">
+                <div class="m_header">
+                    <div class="container">
+                        <div class="logowrap">
+                            <a href="index.html"><span class="hide">부평구시설관리공단통합주차</span></a>
+                        </div>
+                        <div class="m_btn"></div>
+                    </div>
+                </div>
+                <div class="shortcut">
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_m_shortcut_01.png" alt="로그인 아이콘">
+                                        </dt>
+                                        <dd>로그인</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_m_shortcut_02.png" alt="회원가입 아이콘">
+                                        </dt>
+                                        <dd>회원가입</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_m_shortcut_03.png" alt="구간지도검색 아이콘">
+                                        </dt>
+                                        <dd>구간지도검색</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accord">
+                    <dl>
+                        <dt>주차사업팀소개</dt>
+                        <dd><a href="sub_주차사업팀소개_주차사업팀안내.html">주차사업안내</a></dd>
+                        <dd><a href="">주차문화개선계획</a></dd>
+                        <dd><a href="">위치안내</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>거주자우선주차</dt>
+                        <dd><a href="">이용안내</a></dd>
+                        <dd><a href="">이용신청</a></dd>
+                        <dd><a href="">환불신청 안내</a></dd>
+                        <dd><a href="">구획지도검색</a></dd>
+                        <dd><a href="">수납 및 변경</a></dd>
+                        <dd><a href="">배정취소 안내</a></dd>
+                        <dd><a href="">설치/삭선 신청</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>공영주차</dt>
+                        <dd><a href="">이용안내</a></dd>
+                        <dd><a href="">현황 및 위치</a></dd>
+                        <dd><a href="">미납차량조회</a></dd>
+                        <dd><a href="">무인주차장 정기권신청(분기)</a></dd>
+                        <dd><a href="">대기신청</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>견인보관소</dt>
+                        <dd><a href="">견인보관소 안내</a></dd>
+                        <dd><a href="">견인차량 조회</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>고객의소리</dt>
+                        <dd><a href="">공지사항</a></dd>
+                        <dd><a href="">FAQ</a></dd>
+                        <dd><a href="">민원게시판</a></dd>
+                        <dd><a href="">자료실(양식)</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>My Page</dt>
+                        <dd><a href="">차량정보</a></dd>
+                        <dd><a href="">신청정보</a></dd>
+                        <dd><a href="">수납관리</a></dd>
+                        <dd><a href="">배정정보</a></dd>
+                        <dd><a href="">월대기신청내역</a></dd>
+                    </dl>
+                </div>
+            </nav>
+            <div class="header_lower">
+                <div class="container">
+                    <!-- header gnb -->
+                    <nav class="gnbwrap">
+                        <ul class="gnb">
+                            <li class="dep_1">
+                                <a href="">주차사업팀소개</a>
+                            </li>
+                            <li class="dep_1">
+                                <a href="">거주자우선주차</a>
+                            </li>
+                            <li class="dep_1">
+                                <a href="">공영주차</a>
+                            </li>
+                            <li class="dep_1">
+                                <a href="">견인보관소</a>
+                            </li>
+                            <li class="dep_1">
+                                <a href="">고객의소리 </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- / header gnb -->
+                </div>
+                <div class="outcon">
+                    <!-- header lnb -->
+                    <nav class="lnbwrap container">
+                        <ul class="lnb">
+                            <li>
+                                <a href="sub_주차사업팀소개_주차사업팀안내.html">
+                                    주차사업안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    주차문화개선계획
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    위치안내
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="lnb">
+                            <li>
+                                <a href="">
+                                    이용안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    이용신청
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    환불신청 안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    구획지도검색
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    수납 및 변경
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    배정취소 안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    설치/삭선 신청
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="lnb">
+                            <li>
+                                <a href="">
+                                    이용안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    현황 및 위치
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    미납차량조회
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    무인주차장 정기권신청(분기)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    대기신청
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="lnb">
+                            <li>
+                                <a href="">
+                                    견인보관소 안내
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    견인차량 조회
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="lnb">
+                            <li>
+                                <a href="">
+                                    공지사항
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    민원게시판
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    자료실(양식)
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- / header lnb -->
+                </div>
+            </div>
+
+        </header>
+        <!-- / header -->
+        <!-- contents -->
+        <div class="contentswrap">
+            <div class="main_visualwrap">
+                <div class="swiper main_visual">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide main_visual_01"><span class="hide">메인비쥬얼1</span></div>
+                        <div class="swiper-slide main_visual_02"><span class="hide">메인비쥬얼2</span></div>
+                        <div class="swiper-slide main_visual_03"><span class="hide">메인비쥬얼3</span></div>
+                    </div>
+                </div>
+                <div class="swiper-util">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-stopngo"></div>
+                </div>
+                <span class="visual_contents">친절하고 적극적인 활동으로 <em>주민에게 봉사하겠습니다.</em></span>
+                <div class="visual_menu">
+                    <div class="menu_list container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_parkfirst.png" alt="거주자우선 주차안내 아이콘">
+                                        </dt>
+                                        <dd class="lh">거주자우선<span class="brrr"></span>주차안내</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_parksubmit.png" alt="주차신청 아이콘">
+                                        </dt>
+                                        <dd>주차신청</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_parkpay.png" alt="수납 및 변경 아이콘">
+                                        </dt>
+                                        <dd>수납 및 변경</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_parkinglocation.png" alt="공영주차위치 아이콘">
+                                        </dt>
+                                        <dd>공영주차위치</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_pulledcar.png" alt="견인보관소 아이콘">
+                                        </dt>
+                                        <dd>견인보관소</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="notice">
+                <div class="container">
+                    <div class="swiper-button-next2">
+                        <span>
+                        </span>
+                    </div>
+                    <div class="swiper-button-prev2">
+                        <span>
+                        </span>
+                    </div>
+                    <h2 class="main_tit">공지사항</h2>
+                    <div class="swiper noticeslide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide notice_list">
+                                <a href="">
+                                    <p class="notice_num">No.1</p>
+                                    <p class="notice_tit">
+                                        부평구 거주자 주차
+                                        미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획미사용구획
+                                        안내(2022.11.19. 기준)
+                                    </p>
+                                    <span>2022-11-30</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide notice_list">
+                                <a href="">
+                                    <p class="notice_num">No.2</p>
+                                    <p class="notice_tit">
+                                        부평구 거주자 주차 미사용구획 안내(2022.11.19. 기준)
+                                    </p>
+                                    <span>2022-11-30</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide notice_list">
+                                <a href="">
+                                    <p class="notice_num">No.3</p>
+                                    <p class="notice_tit">
+                                        부평구 거주자 주차 미사용구획 안내(2022.11.19. 기준)
+                                    </p>
+                                    <span>2022-11-30</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide notice_list">
+                                <a href="">
+                                    <p class="notice_num">No.4</p>
+                                    <p class="notice_tit">
+                                        부평구 거주자 주차 미사용구획 안내(2022.11.19. 기준)
+                                    </p>
+                                    <span>2022-11-30</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts_l">
+                        <h2 class="main_tit">시설별 연락처</h2>
+                    </div>
+                    <ul class="contacts_r">
+                        <li>
+                            <a href="">
+                                주차사업팀소개
+                                <span>032-<em>262-9223</em></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                거주자우선주차
+                                <span>032-<em>262-9233</em></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                견인차량문의
+                                <span>1566-<em>8578</em></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                공영주차문의
+                                <span>032-<em>262-9234</em></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                차량견인보관소
+                                <span>032-<em>262-9233~9236</em></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                FAX
+                                <span>032-<em>532-8851</em></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="services_l">
+                        <h2 class="main_tit">거주자 서비스</h2>
+                        <ul class="serv_list">
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_faq.png" alt="FAQ 아이콘">
+                                        </dt>
+                                        <dd>FAQ</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_files.png" alt="자료실 아이콘">
+                                        </dt>
+                                        <dd>자료실</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <dl>
+                                        <dt>
+                                            <img src="../common/images/main_icn_customer.png" alt="고객의소리 아이콘">
+                                        </dt>
+                                        <dd>고객의소리</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="services_m">
+                        <dl>
+                            <dt>구획지도 검색</dt>
+                            <dd>희망하는 구획은 선택하신 후<br />편리하게 신청하세요</dd>
+                        </dl>
+                        <button>바로가기<span class="hide">플러스버튼</span></button>
+                    </div>
+                    <div class="services_r">
+                        <div>
+                            나의 주차정보
+                            <img src="../common/images/main_icn_parking.png" alt="나의 주차정보 아이콘">
+                            <button><span class="hide">플러스버튼</span></button>
+                        </div>
+                        <div>
+                            환불신청안내
+                            <img src="../common/images/main_icn_money.png" alt="환불신청안내 아이콘">
+                            <button><span class="hide">플러스버튼</span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- / contents -->
+        <!-- footer -->
+        <footer>
+            <div class="footer_upper">
+                <div class="container">
+                    <div class="fu_l">
+                        <ul>
+                            <li class="on">
+                                <a href="">
+                                    개인정보처리방침
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    회원약관
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    이메일추출방지정책
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    오시는길
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="show_more pink"><span class="hide">더보기</span></span>
+                    </div>
+                    <div class="fu_r">
+                        <ul>
+                            <li class="on">
+                                <a>
+                                    관련사이트
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    3
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="show_more gray"><span class="hide">더보기</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="container">
+                    <address>
+                        <p>
+                            공단주소 : 21387 인천광역시 부평구 경원대로 1337 부평구 견인차량보관소(부원중학교 앞)<br />
+                            대표전화 : 032-262-9233<span class="br in768"></span>
+                            팩스번호 : 032-528-8851<br />
+                            Copyright ⓒ INCHEON BUPYEEONG. All Right Reserved.
+                        </p>
+                    </address>
+                    1
+                </div>
+            </div>
+        </footer>
+        <!-- / footer -->
+    </div>
+</body>
+
+</html>
